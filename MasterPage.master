@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Empire</title>
+    <link rel="stylesheet" href="Styles.css" />
+</head>
+<body style="background-color:#181818;">
+    <div id="head-back">
+        <nav id="nav">
+            <a href="/Default.aspx" class="links">HOME</a><div style="float:left; width:25px; height:100px" ></div>
+            <a href="/Apply.aspx" class="links">APPLY</a><div style="float:left; width:25px; height:100px" ></div>
+            <a href="/Controls/Members.aspx" class="links">MEMBERS</a><div style="float:left; width:110px; height:100px" ></div>
+            <a href="/LODs.aspx" class="links">LODs</a><div style="float:left; width:25px; height:100px" ></div>
+            <a href="/Updates.aspx" class="links">UPDATES</a><div style="float:left; width:25px; height:100px" ></div>
+            <a href="/Controls/Login.aspx" class="links"><asp:Label ID="logLink" runat="server" Text="LOGIN" /></a>
+        </nav>
+        <div id="head" runat="server">
+            <img src="/images/empire.png" id="empire-img" alt="" />
+            <div style="width:100%;height:50%;"><p id="title">GALACTIC &emsp;&emsp;&emsp;&emsp; EMPIRE</p></div>
+        </div>
+    </div>
+    <div id="body"> <!--Header stays the same, body content changes-->
+        <asp:ContentPlaceHolder ID="cphBody" runat="server">
+            Body
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

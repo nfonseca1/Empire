@@ -1,0 +1,245 @@
+﻿#head-back{
+    float:left;
+    position:fixed;
+    height:105px;
+    border-bottom:2px solid #eeeeee;
+    margin-top:-7px;
+    margin-left:-10px;
+    z-index:5;
+}
+#img-back{
+    position:absolute;
+    margin-left:650px;
+    height:190px;
+    width:200px;
+    background-color:#efefef;
+    border-radius:200px;
+}
+#empire-img{
+    position:absolute;
+    margin-left:720px;
+    margin-top:-50px;
+    height:100px;
+    width:100px;
+    z-index:1;
+}
+#quote{
+    font-style:italic; 
+    color:black; 
+    font-size:20px; 
+    margin:2px 20px 2px 20px;
+}
+#title{
+    float:left;
+    font-weight:700;
+    color:#ededed; 
+    font-size:55px; 
+    margin-left:340px;
+    margin-top:-8px;
+}
+#head{
+    float:left;
+	width:1700px;
+	height:50px;
+	background-color:#202020;
+    border-top:2px solid #600000;
+    border-bottom:2px solid Black;
+    border-radius:2px;
+	margin-top:0px;
+}
+#nav{
+    float:left;
+    width:1700px;
+	height:50px;
+	background-color:#2a2a2a;
+	border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+.links{
+    float:left;
+    text-decoration:none;
+    font-weight:700;
+    color:#c2c6ce; 
+    font-size:21px;
+    margin:15px auto auto 125px;
+}
+.links:hover{
+    float:left;
+    text-decoration:none;
+    font-weight:700;
+    color:#e0b311; 
+    font-size:21px;
+    margin:15px auto auto 125px;
+}
+#img-deathStar{
+    float:left;
+    margin-top:100px;
+    margin-left:-10px;
+    height:675px;
+    width:1600px;
+}
+#vader-back{
+    position:absolute;
+    height:200px;
+    width:200px;
+    border-radius:220px;
+    z-index:1;
+    background-color:#e0b311;
+}
+#vader-img{
+    position:absolute;
+    height:210px;
+    width:200px;
+    margin-top:5px;
+    z-index:1;
+}
+#img-bottom{
+    position:absolute;
+    margin-left:990px;
+    margin-top:340px;
+    height:50px;
+    width:300px;
+    background-color:#e0b311;
+    border-radius:10px;
+    z-index:2;
+}
+
+#body{
+    float:left;
+    width:100%;
+}
+#img-debris{
+    float:left;
+    position:fixed;
+    margin-top:100px;
+    width:1500px;
+    height:645px;
+    filter:opacity(10%);
+    z-index:-1;
+}
+#headerLODs{
+    float:left;
+    margin-top:150px;
+    width:100%;
+    height:100px;
+}
+.LOD{
+    float:left;
+    width:600px;
+    margin-left:80px;
+    height:500px;
+    background-color:#282828;
+    border:3px solid white;
+    border-radius:10px 10px 20px 20px;
+    margin-top:100px;
+}
+.LOD:hover{
+    float:left;
+    width:600px;
+    margin-left:80px;
+    height:500px;
+    background-color:#292929;
+    border:3px solid #e0b311;
+    border-radius:10px 10px 20px 20px;
+    margin-top:100px;
+}
+.divLOD{
+    float:left;
+    height:30%;
+    width:100%;
+}
+.titleLOD{
+    float:left;
+    height:65px;
+    width:100%;
+    font-size:50px;
+    font-weight:400;
+    color:white;
+    margin:0 auto auto 50px;
+}
+.textLOD{
+    float:left;
+    height:120px;
+    width:550px;
+    font-size:25px;
+    font-weight:200;
+    color:#cccccc;
+    margin:-5px auto auto 40px;
+}
+.imgLOD{
+    width:99%;
+    height:100%;
+    margin-left:3px;
+    margin-top:3px;
+}
+#img-starDestroyer{
+    position:fixed;
+    margin-top:100px;
+    width:1500px;
+    height:642px;
+    filter:opacity(10%);
+    z-index:-1;
+}
+.headerApply{
+    position:absolute;
+    margin-top:200px;
+    width:100%;
+    height:150px;
+}
+#signIn{
+    color:#6083c9;
+    text-decoration:none;
+}
+#signIn:hover{
+    color:#e0b311;
+    text-decoration:none;
+}
+#application{
+    float:left;
+    width:80%;
+    height:1500px;
+    background-color:#292929;
+    margin:600px auto auto 10%;
+}
+.title-img{
+    margin:-200px auto auto -100px;
+    width:1400px;
+    height:800px;
+}
+.appHeaderSides{
+    position:absolute;
+    width:420px; 
+    height:2px; 
+    background-color:#600000; 
+    margin:50px auto auto 50px;
+}
+.appHeader{ 
+    font-size:40px; 
+    font-weight:400; 
+    color:#cccccc;
+    margin:-25px auto auto 450px;
+}
+table{
+    table-layout:fixed;
+}
+td{
+    width:435px;
+}
+.label{
+    font-size:20px;
+    font-weight:200;
+    color:#cbcbcb;
+}
+#memberList{
+    float:left;
+    width:95%;
+    height:1500px;
+    background-color:#292929;
+    margin:100px auto auto 2.5%;
+}
+#mindTrick{
+    margin-left:400px;
+    width:650px;
+    height:350px;
+    filter:opacity(80%);
+}
